@@ -15,3 +15,4 @@ Completed Part 1 of tutorial
 455 ET
 Added a new controller : RugController
 Changed the content of controller based on the tutorial 
+tested it in the browser
