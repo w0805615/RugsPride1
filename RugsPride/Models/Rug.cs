@@ -14,5 +14,6 @@ namespace RugsPride.Models
         public string Shape { get; set; }
         public string Material { get; set; }
         public decimal Price { get; set; }
+        public string Rating { get; set; }
     }
 }

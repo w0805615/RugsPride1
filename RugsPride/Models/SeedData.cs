@@ -14,7 +14,7 @@ namespace RugsPride.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<RugsPrideContext>>()))
             {
-                // Look for any movies.
+                // Look for any rugs.
                 if (context.Rug.Any())
                 {
                     return;   // DB has been seeded

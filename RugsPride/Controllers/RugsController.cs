@@ -20,9 +20,30 @@ namespace RugsPride.Controllers
         }
 
         // GET: Rugs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string rugMaterial, string searchString)
         {
-            return View(await _context.Rug.ToListAsync());
+            IQueryable<string> materialQuery = from r in _context.Rug
+                                            orderby r.Material
+                                            select r.Material;
+            var rugs = from r in _context.Rug
+                         select r;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                rugs = rugs.Where(s => s.Brand.Contains(searchString));
+            }
+            if (!string.IsNullOrEmpty(rugMaterial))
+            {
+                rugs = rugs.Where(x => x.Material == rugMaterial);
+            }
+
+            var movieGenreVM = new RugMaterialViewModel
+            {
+                Material = new SelectList(await materialQuery.Distinct().ToListAsync()),
+                Rugs = await rugs.ToListAsync()
+            };
+
+            return View(movieGenreVM);
         }
 
         // GET: Rugs/Details/5
