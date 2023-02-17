@@ -27,6 +27,7 @@ namespace RugsPride.Models
                         Color = "Dark-grey Ivory",
                         Shape = "Rectangular",
                         Material = "Super Soft Microfiber",
+                        Rating = "R",
                         Price = 100M
                     },
 new Rug
@@ -35,6 +36,7 @@ new Rug
     Color = "White",
     Shape = "Round",
     Material = "Faux Fur",
+    Rating = "R",
     Price = 140M
 },
 new Rug
@@ -43,6 +45,7 @@ new Rug
     Color = "Black",
     Shape = "Rectangular",
     Material = "Jute",
+    Rating = "R",
     Price = 99.99M
 },
 new Rug
@@ -51,6 +54,7 @@ new Rug
     Color = "Beige",
     Shape = "Rectangular",
     Material = "Polypropylene",
+    Rating = "R",
     Price = 200M
 },
 new Rug
@@ -59,6 +63,7 @@ new Rug
     Color = "Ivory Multi",
     Shape = "Rectangular",
     Material = "Faux Fur",
+    Rating = "R",
     Price = 224M
 },
 new Rug
@@ -67,6 +72,7 @@ new Rug
     Color = "Red",
     Shape = "Round",
     Material = "Jute",
+    Rating = "R",
     Price = 250M
 },
 new Rug
@@ -75,6 +81,7 @@ new Rug
     Color = "Multi",
     Shape = "Rectangular",
     Material = "Jute",
+    Rating = "R",
     Price = 300M
 },
 new Rug
@@ -83,6 +90,7 @@ new Rug
     Color = "Pink Blue",
     Shape = "Round",
     Material = "Super Soft Microfiber",
+    Rating = "R",
     Price = 330M
 },
 new Rug
@@ -91,6 +99,7 @@ new Rug
     Color = "Dark-grey Ivory",
     Shape = "Rectangular",
     Material = "Polypropylene",
+    Rating = "R",
     Price = 420M
 },
 new Rug
@@ -99,6 +108,7 @@ new Rug
     Color = "White",
     Shape = "Rectangular",
     Material = "Super Soft Microfiber",
+    Rating = "R",
     Price = 180M
 }
     );

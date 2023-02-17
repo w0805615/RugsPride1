@@ -99,3 +99,6 @@ Now I will create about page and try to give each page some css
 1337ET
 Seeded my database with ten entries for rugs and filled every property that i decided.
 Completed Part6 of tutorial 
+
+1413ET
+Part 8 completed 

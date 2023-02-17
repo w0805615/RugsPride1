@@ -75,7 +75,7 @@ namespace RugsPride.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Brand,Color,Shape,Material,Price")] Rug rug)
+        public async Task<IActionResult> Create([Bind("Id,Brand,Color,Shape,Material,Price,Rating")] Rug rug)
         {
             if (ModelState.IsValid)
             {
@@ -107,7 +107,7 @@ namespace RugsPride.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Brand,Color,Shape,Material,Price")] Rug rug)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Brand,Color,Shape,Material,Price,Rating")] Rug rug)
         {
             if (id != rug.Id)
             {
