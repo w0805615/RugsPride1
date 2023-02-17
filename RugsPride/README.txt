@@ -57,3 +57,35 @@ Part 3 of the tutorial: Add a view is completed 630ET
 NO ERROR till now.
 Going smoothly!
 
+Starting Part 4: Add a Model 637ET
+
+Created a class file named: Rug.cs in the Models folder
+Added mine decided properties of my Rugs in the class file with the suitable datatypes.
+
+Added NuGet packages(already existed)
+
+In the data folder I made a file name RugsPrideContext.cs
+and created a DbSet<Rug> property for the entity set. this will typically responds to a database table.
+
+Changed the connection in the appsettings.json
+
+Added a scaffolded item in the controller
+Then added model class, Data context class, and got my controller name as RugsController. 
+
+Got an error 740ET
+Error:
+There was an error running the selected code generator
+'Value cannot be null. (Parameter connectionString)
+
+But not to worry!
+ I have to just add a default connection rather tha RugsPride Connection.
+
+Solved it!
+Now I have my RugsController.cs file in hte controller folder
+
+Now moving to the next part which is going to add mogration and updating Database
+Add-Migration InitialCreate
+Update-Database
+Running both the commands in the Package Manager Console
+
+Both the commands were successful
