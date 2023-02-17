@@ -37,13 +37,13 @@ namespace RugsPride.Controllers
                 rugs = rugs.Where(x => x.Material == rugMaterial);
             }
 
-            var movieGenreVM = new RugMaterialViewModel
+            var rugMaterialVM = new RugMaterialViewModel
             {
                 Material = new SelectList(await materialQuery.Distinct().ToListAsync()),
                 Rugs = await rugs.ToListAsync()
             };
 
-            return View(movieGenreVM);
+            return View(rugMaterialVM);
         }
 
         // GET: Rugs/Details/5
