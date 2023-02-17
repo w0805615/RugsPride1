@@ -102,3 +102,12 @@ Completed Part6 of tutorial
 
 1413ET
 Part 8 completed 
+
+1438ET
+Added a new field Rating
+Part 9 Completed
+No Errors
+Got it in first time!
+
+Part 10 Completed
+Added a data validation in the Rug.cs
