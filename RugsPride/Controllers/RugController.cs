@@ -7,7 +7,7 @@ namespace RugsPride.Controllers{
         // 
         // GET: /Rug/
 
-        public IActionResult Index()
+        public IActionResult Index()                    //IActionResult is not  a datatype like string
         {
             return View();
         }

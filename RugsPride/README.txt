@@ -111,3 +111,7 @@ Got it in first time!
 
 Part 10 Completed
 Added a data validation in the Rug.cs
+
+1905ET
+Almost done!
+Checking for improvements in some files

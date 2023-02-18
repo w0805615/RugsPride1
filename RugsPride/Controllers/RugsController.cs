@@ -19,7 +19,7 @@ namespace RugsPride.Controllers
             _context = context;
         }
 
-        // GET: Rugs
+        // GET: Rugs     CRUD: Create Read Update Delete
         public async Task<IActionResult> Index(string rugMaterial, string searchString)
         {
             IQueryable<string> materialQuery = from r in _context.Rug

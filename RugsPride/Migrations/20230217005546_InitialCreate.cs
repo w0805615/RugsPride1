@@ -2,7 +2,7 @@
 
 namespace RugsPride.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialCreate : Migration   //Got this file by Adding migration using command: Add-Migration IntialCreate
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

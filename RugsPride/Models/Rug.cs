@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations; 
 
 namespace RugsPride.Models
 {
-    public class Rug
+    public class Rug                                        //My Class: Rug
     {
         public int Id { get; set; }
 
@@ -29,7 +29,7 @@ namespace RugsPride.Models
         [StringLength(30)] 
         public string Material { get; set; }
 
-        [Range(1, 100)]
+        [Range(1, 500)]
         [DataType(DataType.Currency)]
         [System.ComponentModel.DataAnnotations.Schema.Column(TypeName = "decimal(18, 2)")] 
         public decimal Price { get; set; }

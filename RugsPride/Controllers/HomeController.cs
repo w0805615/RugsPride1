@@ -27,7 +27,7 @@ namespace RugsPride.Controllers
         {
             return View();
         }
-        public IActionResult About()
+        public IActionResult About()                       //Adding a about page controller
         {
             return View();
         }

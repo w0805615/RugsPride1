@@ -2,7 +2,7 @@
 
 namespace RugsPride.Migrations
 {
-    public partial class Rating : Migration
+    public partial class Rating : Migration       //Add-Migration Rating
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
