@@ -115,3 +115,8 @@ Added a data validation in the Rug.cs
 1905ET
 Almost done!
 Checking for improvements in some files
+
+2106ET
+Completed!!
+NO ERRORS!
+PROPERLY WORKING CODE!!
